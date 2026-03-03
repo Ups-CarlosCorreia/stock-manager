@@ -10,7 +10,7 @@ lista = []
 class ProdutoSubClass:
     def UpdateNome(Produto):
         new_name = input("New name: ")
-        Produto.NOME= new_name
+        Produto.NAME= new_name
     def UpdateQuantidade(Produto):
         new_quantidade = input("New quantity: ")
         Produto.QUANTIDADE= new_quantidade
